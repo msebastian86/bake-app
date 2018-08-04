@@ -1,5 +1,5 @@
 # bake-app
-App for managing recipes and shopping list. [Angular 6 and Bootstrap 4]
+App for managing recipes and shopping list. [Angular 6 and Bootstrap 4] <br/>
 Based on Udemy course.
 
 ## Development server
@@ -16,5 +16,5 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 ## Deploying to GitHub Pages
 
-Install Github Pages globally: npm i -g angular-cli-ghpages. 
+Install Github Pages globally: npm i -g angular-cli-ghpages. <br/>
 Build project (ng build --prod) and run angular-cli-ghpages - this will deploy /dist catalog to GitHub Pages.
