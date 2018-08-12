@@ -5,8 +5,9 @@
 </div>
 
 <app-recipe-item 
-	*ngFor="let recipeEl of recipes; let i = index"
+	*ngFor="let recipeEl of recipes; let i = index; let length = count"
 	[recipe]="recipeEl"
 	[index]="i"
+	[indexMax]="length"
 	[stefan]="'testingstefana ' + i">
 </app-recipe-item>

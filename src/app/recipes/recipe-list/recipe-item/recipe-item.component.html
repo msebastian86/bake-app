@@ -2,14 +2,12 @@
 	<div class="col-12">	
 		<a	[routerLink]="[index]"
 			style="cursor: pointer;"
-			class="list-group-item mb-2 clearfix"
+			class="list-group-item mb-2 clearfix {{index === indexMax-1 ? 'mb-4' : ''}}"
 			routerLinkActive="active">
-
 			<div class="pull-left">
 				<!-- string interpolation -->
 				<h4 class="list-group-item-heading">{{recipe.name}}</h4>
 				<p class="list-group-item-text">{{recipe.description}}</p>
-				{{index}}
 				{{stefan}}
 			</div>
 			<span class="pull-right">
