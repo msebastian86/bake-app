@@ -17,4 +17,6 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 ## Deploying to GitHub Pages
 
 Install Github Pages globally: npm i -g angular-cli-ghpages. <br/>
-Build project (ng build --prod) and run angular-cli-ghpages - this will deploy /dist catalog to GitHub Pages.
+Build project (ng build --prod) 
+<br/>and 
+<br/>run angular-cli-ghpages - this will deploy /dist catalog to GitHub Pages.
